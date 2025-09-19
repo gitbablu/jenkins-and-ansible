@@ -1,6 +1,6 @@
 pipeline {
    agent any
-   stages {
+    stages {
       stage('clone repo') {
                         steps {
                            git 'https://github.com/gitbablu/jenkins-and-ansible.git'
